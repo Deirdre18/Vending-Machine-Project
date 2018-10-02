@@ -1,4 +1,6 @@
-## Vending Machine Project
+## Vending Machine Project - please note this project is under TDD (Test Driven Development)
+
+(lesson below extracted from Code Institute lesson)
 
 # What is it?
 
@@ -9,12 +11,11 @@ A vending machine function for determining the correct amount of change.
 
 Given an amount, it determines the change to be returned. We will build it using test-driven development.
 
-
 # How do you use it?
 
 Use the testing framework we built in the last lesson to add functionality to the vending machine module.
 
-LESSON:
+##LESSON:
 
 In our final unit for this lesson, our mini project will walk you through
 building a relatively complicated program. We're going to build a function
@@ -25,13 +26,17 @@ be given to the customer. Our function should pay the minimum number of coins
 possible, and the available coin denominations are 100,50,20,10,5,2 and 1.
 Bringing together everything that we've learned in our previous units, we're
 going to build the function incrementally using test-driven
-development. So let's start by initializing an empty git repository and
+development. 
+
+So let's start by initializing an empty git repository and
 now that's done, remember to add and commit your file to it as we go through
-this project. Now we can create a new Python file. I'm going to call mine
-vending_machine.py. Now that we've done that we can import our
-byotest framework and create the "all tests pass" message. So let's do that now.
-from our byotest.py file we want to import everything, and then print our "all
-tests pass" message. Now let's write our first test. When the amount of change
+this project. Now we can create a new Python file (ie) vending_machine.py. 
+
+Now that we've done that we can import our byotest framework and create the "all tests pass" message. 
+So let's do that now. From our byotest.py file we want to import everything, and then print our "all
+tests pass" message. 
+
+Now let's write our first test. When the amount of change
 that we require is zero, then we should get no coins back so we can do this by
 using our test_are_equal function calling our, currently non-existent, get_change
 function. And we expect, where we've provide zero change, to get an empty list

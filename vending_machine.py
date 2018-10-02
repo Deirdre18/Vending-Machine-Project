@@ -1,0 +1,3 @@
+# We’re going to build a function that will calculate the coins that should be returned by a vending machine to make the correct change. So here’s our specification: Given an amount of change that needs to be paid, we want to generate the list of coins that should be given to the customer. Our function should pay the minimum number of coins possible, and the available coin denominations are 100,50,20,10,5,2 and 1. Bringing together everything that we’ve learned in our previous units, we’re going to build the function incrementally using test-driven development. 
+
+## See TDD workspace for this project!! Test frameworks being imported. 
